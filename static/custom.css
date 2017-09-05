@@ -1,0 +1,21 @@
+/* Adapted from*/
+/* https://stackoverflow.com/questions/5198392/css-float-floating-an-image-to-the-left-of-the-text */
+/* Meant for use in CV for schools */
+.thumb-plus-text {
+    margin: 10px 0px 0 0;
+    border: 0px solid #333;
+    overflow: auto
+}
+.thumb {
+    float: left
+}
+.thumb img {
+    display: block
+}
+.thumb-content {
+    margin-left: 70px
+}
+.thumb-title {
+    font-weight: bold;
+    font-size: 200%
+}
