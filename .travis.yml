@@ -14,7 +14,6 @@ before_install:
 install:
   - conda env create --file ci/environment-py36.yml
   - source activate deploy_env
-  - pip install -e .
   
 script: "lektor build"
 
