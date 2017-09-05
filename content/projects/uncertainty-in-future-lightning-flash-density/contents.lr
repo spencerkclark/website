@@ -9,7 +9,7 @@ Lightning is a source of tropospheric NOx, which is important for ozone chemistr
 We found that the two parameterizations that perform best in the present-day (one based on cloud top height, and one based on cold cloud depth) have substantially different projections for future lightning, with the cloud top height scheme projecting an increase of over 12% per Kelvin increase in global mean temperature and the cold cloud depth scheme projecting an increase of just under 4% per Kelvin.  See more details in [our published manuscript](http://onlinelibrary.wiley.com/doi/10.1002/2017GL073017/abstract).
 
 <p align="center">
-  <img src="/static/2017GL073017f03.pdf">
+  <img src="../static/2017GL073017f03.pdf">
 </p>
 ---
 pub_date: 2017-05-02
