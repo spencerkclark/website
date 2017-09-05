@@ -2,4 +2,4 @@
 name = spencerkclark
 
 [servers.ghpages]
-target = ghpages+https://spencerkclark/website.git
+target = ghpages+https://spencerkclark/website
