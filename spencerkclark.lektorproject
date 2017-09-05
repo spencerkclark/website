@@ -1,0 +1,5 @@
+[project]
+name = spencerkclark
+
+[servers.ghpages]
+target = ghpages+https://spencerkclark/website

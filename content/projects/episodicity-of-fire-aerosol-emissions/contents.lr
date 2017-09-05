@@ -1,0 +1,37 @@
+title: Episodicity of fire aerosol emissions
+---
+author: Spencer Clark
+---
+body:
+
+Somewhat inspired by then-recent progress in the prognostic fire modeling realm
+([Kloster et al., 2010](http://www.biogeosciences.net/7/1877/2010/); [Li et al., 2012](http://www.biogeosciences.net/9/2761/2012/)) this study was formulated to help guide the
+priorities in the next generation of fire models in ESMs. A particular
+aspect of fires that might be difficult to simulate prognostically or in
+prescribed emissions in
+an ESM is their episidocity (from aerosol modeling perspective, how
+frequently and intensely emissions are released). Commonly spatial variation in
+fire days in presecribed emissions schemes looks like what is shown in panel
+(b) in the figure below.
+
+<p align="center">
+  <img src="/static/2015JD024068-p02.pdf">
+</p>
+
+In this project we
+investigate how important the frequency of emissions (i.e. number of
+fire days per month) is in simulating
+the climate impacts of fire aerosols (in terms of radiative forcing
+and impacts on the mean meridional circulation in the
+tropics). We find that at a coarse gridscale (1.9 x 2.5
+degree) fire frequency is most important to resolve in the high
+latitudes in the Northern Hemisphere, where fire is most infrequent in
+observations.
+
+The bottom line, however, is that we find that in most locations
+at this coarse a grid-scale, the uncertainty in climate impacts due to
+approximations in emission episodicity is smaller than the uncertainty due to
+other factors such as quantity, composition, or optical properties; the
+quantitative details can be found within [our published manuscript](http://onlinelibrary.wiley.com/doi/10.1002/2015JD024068/abstract).
+---
+pub_date: 2015-12-15

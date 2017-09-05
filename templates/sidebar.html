@@ -1,0 +1,34 @@
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+
+    <!-- Add a picture to the sidebar -->
+    <div class="sidebar-logo" >
+      <img src="{{ '/static/sphere_square.png'|url }}"/>
+    </div>
+    
+    <div class="sidebar-about">
+      <h1>
+        <a href="{{ site.baseurl }}">
+          Spencer K. Clark
+        </a>
+      </h1>
+      <p class="lead">Ph.D. Student</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item {% if this._path == '/' %}active{% endif %}" href="/">Home</a>
+
+      {% for href, title in [
+      ['/cv', 'CV'],
+      ['/projects', 'Projects'],
+      ['/blog', 'Blog'],
+      ] %}
+        <a class="sidebar-nav-item{% if this.is_child_of(href)%} active{% endif
+                  %}"
+           href="{{  href|url }}">{{ title }}</a>
+        {% endfor %}
+    </nav>
+
+    <p>&copy; Spencer Clark (2017). All rights reserved.</p>
+  </div>
+</div>
