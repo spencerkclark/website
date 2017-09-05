@@ -19,4 +19,6 @@ script: "lektor build"
 
 deploy:
   provider: script
-  script: "lektor deploy ghpages"
+  script: "lektor deploy ghpages-https"
+  on:
+    branch: lektor
