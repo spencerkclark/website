@@ -1,0 +1,8 @@
+name: deploy_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - lektor
+  - pip:
+    - git+https://github.com/baldwint/lektor-jupyter.git
