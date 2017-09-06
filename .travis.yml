@@ -1,12 +1,9 @@
 language: python
 
-python: 3.6
+python: 2.7
 
 before_install:
-  - git config credential.helper "store --file=.git/credentials"; echo "https://${GITHUB_OAUTH_TOKEN}:@github.com" > .git/credentials 2>/dev/null
-  - git config --global user.email {$GITHUB_EMAIL}
-  - git config --global user.name "Spencer Clark"
-  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh -O miniconda.sh;
   - bash miniconda.sh -b -p $HOME/miniconda
   - export PATH="$HOME/miniconda/bin:$PATH"
   - hash -r
@@ -15,7 +12,7 @@ before_install:
   - conda info -a
 
 install:
-  - conda env create --file ci/environment-py36.yml
+  - conda env create --file ci/environment-py27.yml
   - source activate deploy_env
   
 script: "lektor build"
