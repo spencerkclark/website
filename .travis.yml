@@ -19,4 +19,4 @@ script: "lektor build"
 
 deploy:
   provider: script
-  script: "lektor deploy ghpages"
+  script: "lektor deploy ghpages --username $LEKTOR_DEPLOY_USERNAME --password $LEKTOR_DEPLOY_PASSWORD"
