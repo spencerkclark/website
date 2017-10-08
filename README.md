@@ -4,7 +4,10 @@ Personal website
 ----------------
 
 This repository contains both the source code for building, and the actual
-content of my personal website.  Upon pushing updates to the master branch of
+content of my personal website.  I use the [static site generator `lektor`](https://www.getlektor.com) for
+generating the pages of this website and
+the [`hyde` theme](https://github.com/poole/hyde) for the layout (which I
+adapted for use with `lektor`).  Upon pushing updates to the master branch of
 this repository, things are configured such that the website is automatically
 re-built using Travis CI, and the updates are pushed to the gh-pages branch.
 - For more on `lektor`, see
