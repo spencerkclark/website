@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2018-09-24 ([PDF](../static/CV.pdf)).
+Last updated 2019-01-03 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -78,7 +78,7 @@ observations, and studied their future projections.
 
 ### Software
 
-Contributor to [`aospy`](https://github.com/spencerahill/aospy), [`xarray`](https://github.com/pydata/xarray), [`cftime`](https://github.com/Unidata/cftime), and [`dask-jobqueue`](https://github.com/dask/dask-jobqueue).
+Contributor to [`aospy`](https://github.com/spencerahill/aospy), [`xarray`](https://github.com/pydata/xarray), [`cftime`](https://github.com/Unidata/cftime), and [`dask-jobqueue`](https://github.com/dask/dask-jobqueue).  See more details on my [GitHub profile](https://github.com/spencerkclark).
 
 ### Professional Experiences
 
@@ -98,7 +98,9 @@ Peer-reviewed manuscripts for the following journals: *Nature*,   *Nature Climat
 
 ### Presentations
 
-**Clark, S. K.**, Ming, Y. Investigating synoptic-scale monsoonal disturbances in an idealized moist model. AGU Fall Meeting 2017, New Orleans, LA, December 2017.  Poster Presentation.
+**Clark, S. K.**, Ming, Y., and Adames, A. F. "An idealized framework for simulating monsoon low pressure systems and their potential sensitivity to the mean state." AGU Fall Meeting 2018, Washington D.C., December 2018.  Poster Presentation.
+
+**Clark, S. K.**, Ming, Y. "Investigating synoptic-scale monsoonal disturbances in an idealized moist model." AGU Fall Meeting 2017, New Orleans, LA, December 2017.  Poster Presentation.
 
 **Clark, S. K.**, Ming, Y., and Held, I. M. “The role of water vapor in the ITCZ response to hemispherically asymmetric forcings.” AGU Fall Meeting, San Francisco, CA, December 2016. Poster Presentation.
 
