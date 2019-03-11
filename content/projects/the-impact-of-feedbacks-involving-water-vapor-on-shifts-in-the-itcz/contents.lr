@@ -1,0 +1,15 @@
+title: The impact of feedbacks involving water vapor on shifts in the ITCZ
+---
+body:
+
+It is well-known that shifts in the intertropical convergence zone (ITCZ) can be induced by hemispherically asymmetric forcings, i.e. when the Northern or Southern Hemisphere is warmed or cooled relative to the other.  The extent of a shift of the ITCZ in response to a given forcing magnitude and/or location has been shown to be sensitive to climate model physics, in particular the parameterization of clouds and their subsequent radiative effects.  Less attention has been given, however, to the role of feedbacks involving water vapor in setting the sensitivity of ITCZ shifts to hemispherically asymmetric forcings.  In this study, we make use of the Geophysical Fluid Dynamics Laboratory's (GFDL's) idealized moist aquaplanet general circulation model coupled to a full radiative transfer code to conduct a large suite of simulations to address this problem.  
+
+<p align="center">
+  <img src="../static/wv-itcz-cartoon.pdf">
+</p>
+
+Our approach is to induce a shift in the ITCZ by introducing a reduction in incoming solar radiation in either the tropical or extratropical Northern Hemisphere in two different model configurations.  In the first configuration, the radiation code sees the active water vapor tracer in the model (we call this the "interactive water vapor" configuration); in the second configuration the radiation code instead sees a zonally and hemispherically symmetric pattern of water vapor taken from a control simulation with no perturbation to the solar insolation (we call this the "prescribed water vapor" configuration).  We find that for a given forcing magnitude and location, the ITCZ shifts about twice as far in the interactive water vapor configuration as it does in the prescribed water vapor configuration.  Based on analysis using energy flux equator theory for the latitude of the ITCZ, we conclude that the difference in sensitivity is due mainly to the outgoing-longwave-radiation-inhibiting impact of the water-vapor-rich ITCZ shifting into the already warmer hemisphere.  This is illustrated in the schematic above.  There Q, the green curve, represents the net column heating; the shaded gradient above the falling rain represents the water vapor field seen by the radiation code;  and the red arrows represent outgoing longwave radiation, with longer arrows representing greater values. More details can be found in our [manuscript published in the Journal of Climate](https://doi.org/10.1175/JCLI-D-17-0723.1).
+---
+author: Spencer K. Clark
+---
+pub_date: 2018-05-01
