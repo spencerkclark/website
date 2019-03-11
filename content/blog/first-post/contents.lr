@@ -1,9 +1,0 @@
-title: Under construction
----
-pub_date: 2017-08-12
----
-author: Spencer K. Clark
----
-body:
-
-Eventually I may use this space to post things that I have found useful that may be of interest to at least some other people; an idea that comes to mind is my remote access workflow, which I gave a talk on at the AOS student seminar in March of 2017.  Setting up SSH tunnels (e.g. to view remote Jupyter notebooks or JupyterLab instances) on the GFDL computers requires a few extra non-trivial steps than are required on more standard remote setups. 
