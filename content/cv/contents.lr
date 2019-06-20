@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2019-05-06 ([PDF](../static/CV.pdf)).
+Last updated 2019-06-20 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -37,8 +37,12 @@ Last updated 2019-05-06 ([PDF](../static/CV.pdf)).
 *Research Assistant*, May 2015 - Present
 - Studied the role of water vapor in the ITCZ response to hemispherically
   asymmetric perturbations.
-- Currently investigating the extent to which monsoon low pressure systems
-  can be simulated in an idealized moist GCM.
+- Demonstrated that South Asian monsoon low pressure systems can be
+simulated in an idealized moist GCM, and that the storms exhibit some properties
+consistent with moisture vortex instability theory as well as some deviations
+from it.
+- Studied the sensitivity of equatorial wave variability in an idealized
+moist GCM to various forms of heating perturbations.
 
 #### Cornell University, Department of Earth and Atmospheric Sciences, Ithaca, NY
 *Research Assistant*, Jan. 2011 - Mar. 2017
@@ -63,7 +67,7 @@ observations, and studied their future projections.
 
 Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  Scale analysis of moist thermodynamics in a simple model and the relationship between moisture modes and gravity waves.  Submitted to Journal of the Atmospheric Sciences.
 
-**Clark, S. K.**, Ming, Y. Adames, Á. F. Monsoon low pressure system like variability in an idealized moist model.  Submitted to Journal of Climate.
+**Clark, S. K.**, Ming, Y. Adames, Á. F. Monsoon low pressure system like variability in an idealized moist model.  Submitted to Journal of Climate (in revision).
 
 ### Refereed Publications
 
@@ -90,7 +94,7 @@ Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  Scale analysis o
 
 *Core developer* of [`aospy`](https://github.com/spencerahill/aospy), a Python library for climate model data analysis and management
 - Migrated the internals of the project to use xarray.
-- Among other things, added support for parallelizing computations, abstracted data-loading procedures, and added support for recursively-computed variables.
+- Added support for parallelizing computations, abstracted data-loading procedures, and enabled variables to be computed recursively.
 
 *Contributor* to [`cftime`](https://github.com/Unidata/cftime), [`dask-jobqueue`](https://github.com/dask/dask-jobqueue), and [`nc-time-axis`](https://github.com/SciTools/nc-time-axis).  Author of [`faceted`](https://github.com/spencerkclark/faceted) and [`xdiff`](https://github.com/spencerkclark/xdiff).  See more details on my [GitHub profile](https://github.com/spencerkclark).
 
