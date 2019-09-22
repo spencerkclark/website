@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2019-06-20 ([PDF](../static/CV.pdf)).
+Last updated 2019-09-22 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -14,7 +14,7 @@ Last updated 2019-06-20 ([PDF](../static/CV.pdf)).
     </div>
    <div class="thumb-content">
 <h4 class="no-margin">Princeton University, Program in Atmospheric and Oceanic Sciences</h4>
-<p class="no-margin">Ph.D. Atmospheric and Oceanic Sciences, Defending in August 2019</p>
+<p class="no-margin">Ph.D. Atmospheric and Oceanic Sciences, September 2019</p>
 <p class="no-margin">M.A. Atmospheric and Oceanic Sciences, September 2016</p>
 <p class="no-margin">Advisor: Yi Ming</p>
    </div>
@@ -33,8 +33,11 @@ Last updated 2019-06-20 ([PDF](../static/CV.pdf)).
 
 ### Research Experience
 
+#### Vulcan Inc., Climate Modeling Team, Princeton, NJ
+*Software Engineer for Climate Model Development*, August 2019 - Present
+
 #### Princeton University, Program in Atmospheric and Oceanic Sciences, Princeton, NJ
-*Research Assistant*, May 2015 - Present
+*Research Assistant*, May 2015 - August 2019
 - Studied the role of water vapor in the ITCZ response to hemispherically
   asymmetric perturbations.
 - Demonstrated that South Asian monsoon low pressure systems can be
@@ -65,9 +68,11 @@ observations, and studied their future projections.
 
 ### Submitted articles
 
-Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  Scale analysis of moist thermodynamics in a simple model and the relationship between moisture modes and gravity waves.  Submitted to Journal of the Atmospheric Sciences.
-
 **Clark, S. K.**, Ming, Y. Adames, Á. F. Monsoon low pressure system like variability in an idealized moist model.  Submitted to Journal of Climate (in revision).
+
+### Articles in press
+
+Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  Scale analysis of moist thermodynamics in a simple model and the relationship between moisture modes and gravity waves.  Journal of the Atmospheric Sciences.  https://doi.org/10.1175/JAS-D-19-0121.1
 
 ### Refereed Publications
 
@@ -76,6 +81,10 @@ Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  Scale analysis o
 **Clark, S. K.**, Ward, D. S., & Mahowald, N. M. (2017). Parameterization-based uncertainty in future lightning flash density. Geophysical Research Letters, 44(6), 2017GL073017. https://doi.org/10.1002/2017GL073017
 
 **Clark, S. K.**, Ward, D. S., & Mahowald, N. M. (2015). The sensitivity of global climate to the episodicity of fire aerosol emissions. Journal of Geophysical Research: Atmospheres, 120(22), 2015JD024068. https://doi.org/10.1002/2015JD024068
+
+### Ph.D. Thesis
+
+**Clark, S. K.** (2019). Controls on tropical mean state and intraseasonal precipitation variability in an idealized moist atmospheric model. Ph.D. Thesis.  Program in Atmospheric and Oceanic Sciences, Princeton University.
 
 ### Selected Awards 
 
