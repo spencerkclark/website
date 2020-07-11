@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2020-06-22 ([PDF](../static/CV.pdf)).
+Last updated 2020-07-11 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -66,11 +66,9 @@ observations, and studied their future projections.
 - Wrote comprehensive [web-based documentation](https://princetonuniversity.github.io/oscar/) to describe the model as well as its new interface.
 - Created lab exercises to help students learn about the features and limitations of the model, and illustrate Earth System Modeling concepts.
 
-### Articles in press
-
-Narinesingh, V., Booth, J. F., **Clark, S. K.**, Ming, Y.   (2020).  Atmospheric Blocking: The Impact of Topography in an Idealized General Circulation Model.  Weather and Climate Dynamics.  https://doi.org/10.5194/wcd-2020-2
-
 ### Refereed Publications
+
+Narinesingh, V., Booth, J. F., **Clark, S. K.**, Ming, Y.   (2020).  Atmospheric blocking in an aquaplanet and the impact of orography.  Weather and Climate Dynamics, 1(2), 293-311.  https://doi.org/10.5194/wcd-2020-2
 
 **Clark, S. K.**, Ming, Y. Adames, Á. F.  (2020).  Monsoon low pressure system like variability in an idealized moist model.  Journal of Climate, 33(6), 2051-2074.  https://doi.org/10.1175/JCLI-D-19-0289.1
 
@@ -104,6 +102,10 @@ Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  (2019).  Scale a
 *Core developer* of [`aospy`](https://github.com/spencerahill/aospy), a Python library for climate model data analysis and management
 - Migrated the internals of the project to use xarray.
 - Added support for parallelizing computations, abstracted data-loading procedures, and enabled variables to be computed recursively.
+
+*Contributor* to  [`cftime`](https://github.com/Unidata/cftime), a Python library providing datetime instances for non-standard calendars
+- Enabled exact numerical decoding and encoding of datetimes
+- Suggested strategy that led to speeding up fundamental operations, e.g. datetime construction and timedelta arithmetic, by 200 to 400x.
 
 *Contributor* to [`cftime`](https://github.com/Unidata/cftime), [`dask-jobqueue`](https://github.com/dask/dask-jobqueue), and [`nc-time-axis`](https://github.com/SciTools/nc-time-axis).  Author of [`faceted`](https://github.com/spencerkclark/faceted) and [`xdiff`](https://github.com/spencerkclark/xdiff).  See more details on my [GitHub profile](https://github.com/spencerkclark).
 
