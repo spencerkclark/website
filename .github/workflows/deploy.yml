@@ -36,10 +36,10 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.LEKTOR_DEPLOY_PRIVATE_KEY }}
       - name: Deploy 🚀
-        # if: github.event == 'push'
+        if: github.event == 'push'
         env:
           LEKTOR_DEPLOY_PUBLIC_KEY: ${{ secrets.LEKTOR_DEPLOY_PUBLIC_KEY }}
           LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
         run: |
           source activate deploy_env
-          lektor deploy --key "$LEKTOR_DEPLOY_PUBLIC_KEY" --username $LEKTOR_DEPLOY_USERNAME ghpages-ssh
+          lektor deploy --key "$LEKTOR_DEPLOY_PUBLIC_KEY" ghpages-ssh
