@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2020-07-11 ([PDF](../static/CV.pdf)).
+Last updated 2020-12-30 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -68,6 +68,8 @@ observations, and studied their future projections.
 
 ### Refereed Publications
 
+Harris, L., Zhou, L., Lin, S.-J., Chen, J.-H., Chen, X., Gao, K., Morin, M., Rees, S., Sun, Y., Tong, M., Xiang, B., Bender, M., Benson, R., Cheng, K.-Y., **Clark, S.**, Elbert, O. D., Hazelton, A., Huff, J. J., Kaltenbaugh, A., … Stern, W. (2020). GFDL SHiELD: A Unified System for Weather-to-Seasonal Prediction. Journal of Advances in Modeling Earth Systems, 12(10), e2020MS002223. https://doi.org/10.1029/2020MS002223
+
 Narinesingh, V., Booth, J. F., **Clark, S. K.**, Ming, Y.   (2020).  Atmospheric blocking in an aquaplanet and the impact of orography.  Weather and Climate Dynamics, 1(2), 293-311.  https://doi.org/10.5194/wcd-2020-2
 
 **Clark, S. K.**, Ming, Y. Adames, Á. F.  (2020).  Monsoon low pressure system like variability in an idealized moist model.  Journal of Climate, 33(6), 2051-2074.  https://doi.org/10.1175/JCLI-D-19-0289.1
@@ -88,9 +90,7 @@ Adames, Á. F., Kim, D., **Clark, S. K.**, Ming, Y., Inoue, K.  (2019).  Scale a
 
 - Arnold Guyot Teaching Award, Princeton University Department of Geosciences, 2018
 - National Defense Science and Engineering Graduate Fellowship, American Society for Engineering Education, 2016-2019
-- Honorable Mention, NSF Graduate Research Fellowship, National Science Foundation, 2014, 2015, 2016
 - Dorothy and Fred Chau Award (Excellence in Undergraduate Research), May 2014
-- Intercollegiate Tennis Association Scholar Athlete, ITA, 2012, 2013
 - Rawlings Cornell Presidential Research Scholar, Cornell, 2010-2014
 
 ### Software
@@ -123,9 +123,13 @@ Assistant Mentor to NOAA Hollings Scholar Bridgette Befort (2017).
 
 ### Reviewing
 
-Peer-reviewed manuscripts for  *Nature*,   *Nature Climate Change*, and  *Journal of Geophysical Research — Atmospheres*.
+Peer-reviewed manuscripts for  *Nature*,   *Nature Climate Change*,  *Journal of Geophysical Research — Atmospheres*, *Journal of Climate*, *Quarterly Journal of the Royal Meteorological Society*, and GFDL internal manuscript review.
 
 ### Presentations
+
+**Clark, S. K.**, Brenowitz, N., Bretherton, C. S., Henn, B. M., Kwa, A., McGibbon, J., Perkins, W. A., Watt-Meyer, O., Chen, X., Harris, L., Zhou, L.  "Using nudging to investigate biases in a global 3 km resolution simulation with GFDL's X-SHiELD model." AGU Fall Meeting 2020, December 2020.  Virtual Poster Presentation.
+
+**Clark, S. K.**, Brenowitz, N., Henn, B. M., Kwa, A., McGibbon, J., Perkins, W. A., Watt-Meyer, O., Harris, L., Bretherton, C.S.  "Challenges associated with training a machine-learning based moist physics parameterization by coarse-graining in a model with topography." NOAA Artificial Intelligence Workshop, December 2020.  Virtual Oral Presentation.
 
 **Clark, S. K.**, Ming, Y., and Adames, A. F. "An idealized framework for simulating monsoon low pressure systems and their potential sensitivity to the mean state." AGU Fall Meeting 2018, Washington D.C., December 2018.  Poster Presentation.
 
