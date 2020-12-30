@@ -38,4 +38,4 @@ jobs:
           LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
         run: |
           source activate deploy_env
-          lektor deploy gh-pages
+          lektor deploy ghpages
