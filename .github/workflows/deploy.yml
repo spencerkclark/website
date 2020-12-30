@@ -31,12 +31,11 @@ jobs:
         run: |
           source activate deploy_env
           lektor build
-      - name: Install SSH Client 🔑
+      - name: Install SSH Client
         uses: webfactory/ssh-agent@v0.4.1
         with:
           ssh-private-key: ${{ secrets.LEKTOR_DEPLOY_PRIVATE_KEY }}
-      - name: Deploy 🚀
-        if: github.event == 'push'
+      - name: Deploy
         env:
           LEKTOR_DEPLOY_PUBLIC_KEY: ${{ secrets.LEKTOR_DEPLOY_PUBLIC_KEY }}
           LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
