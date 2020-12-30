@@ -3,3 +3,6 @@ name = spencerkclark
 
 [servers.ghpages]
 target = ghpages+https://spencerkclark/website
+
+[servers.ghpages-ssh]
+target = ghpages://spencerkclark/website
