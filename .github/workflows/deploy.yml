@@ -41,4 +41,4 @@ jobs:
           LEKTOR_DEPLOY_PUBLIC_KEY: ${{ secrets.LEKTOR_DEPLOY_PUBLIC_KEY }}
         run: |
           source activate deploy_env
-          lektor deploy --key $LEKTOR_DEPLOY_PUBLIC_KEY ghpages
+          lektor deploy --key "$LEKTOR_DEPLOY_PUBLIC_KEY" ghpages
