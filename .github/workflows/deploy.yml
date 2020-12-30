@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy site
+    name: deploy
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -28,7 +28,7 @@ jobs:
           conda info --all
           conda list
       - name: Build site
-        run: 
+        run: |
           source activate deploy_env
           lektor build
       - name: Deploy
