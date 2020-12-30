@@ -36,6 +36,7 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.LEKTOR_DEPLOY_PRIVATE_KEY }}
       - name: Deploy
+        if: ${{ github.event_name == 'push' }}
         env:
           LEKTOR_DEPLOY_PUBLIC_KEY: ${{ secrets.LEKTOR_DEPLOY_PUBLIC_KEY }}
           LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
