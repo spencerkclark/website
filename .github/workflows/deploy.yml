@@ -1,0 +1,39 @@
+name: "deploy"
+
+on:
+  pull_request:
+  push:
+    branches:
+    - 'master'
+
+jobs:
+  deploy:
+    name: Deploy site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v2
+      - name: Setup conda
+        uses: s-weigand/setup-conda@v1
+        with:
+          activate-conda: false
+          conda-channels: conda-forge
+          python-version: '3.7'
+      - name: Install dependencies
+        run: |
+          conda env create --file ci/environment-py37.yml
+      - name: Environment information
+        run: |
+          source activate deploy_env
+          conda info --all
+          conda list
+      - name: Build site
+        run: 
+          source activate deploy_env
+          lektor build
+      - name: Deploy
+        if: github.event == 'push'
+        env:
+          LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
+          LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
+        run: lektor deploy gh-pages
