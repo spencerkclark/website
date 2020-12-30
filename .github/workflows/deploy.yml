@@ -36,4 +36,6 @@ jobs:
         env:
           LEKTOR_DEPLOY_USERNAME: ${{ secrets.LEKTOR_DEPLOY_USERNAME }}
           LEKTOR_DEPLOY_PASSWORD: ${{ secrets.LEKTOR_DEPLOY_PASSWORD }}
-        run: lektor deploy gh-pages
+        run: |
+          source activate deploy_env
+          lektor deploy gh-pages
