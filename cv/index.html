@@ -107,7 +107,7 @@
     <div class="page">
       
   <h2>Curriculum Vitae</h2>
-  <p>Last updated 2020-12-30 (<a href="../static/CV.pdf">PDF</a>).</p>
+  <p>Last updated 2021-07-05 (<a href="../static/CV.pdf">PDF</a>).</p>
 <h3>Education</h3>
 <div class="thumb-plus-text" href="#">
     <div class="thumb">
@@ -131,6 +131,18 @@
 </div><h3>Research Experience</h3>
 <h4>Vulcan Inc., Climate Modeling Team, Princeton, NJ</h4>
 <p><em>Software Engineer for Climate Model Development</em>, August 2019 - Present</p>
+<ul>
+<li>Supported Vulcan Climate Modeling's efforts as a member of both VCM's ML
+team and GFDL's SHiELD model development team.</li>
+<li>Contributed code to GFDL's SHiELD model to enable online coarse-graining of
+diagnostics and model restart files in physically consistent ways.  Ran multiple
+global 3-km resolution simulations with outputs coarse-grained online to 25-km
+resolution to produce 50+ TB datasets with high frequency output for machine
+learning training and testing.</li>
+<li>Helped build and use infrastructure to run a Python-wrapped version of
+NOAA's FV3GFS model for machine learning experiments, in which output from the
+3-km runs was used to train ML models to improve coarse-resolution simulations.</li>
+</ul>
 <h4>Princeton University, Program in Atmospheric and Oceanic Sciences, Princeton, NJ</h4>
 <p><em>Research Assistant</em>, May 2015 - August 2019</p>
 <ul>
@@ -164,7 +176,25 @@ observations, and studied their future projections.</li>
 <li>Wrote comprehensive <a href="https://princetonuniversity.github.io/oscar/">web-based documentation</a> to describe the model as well as its new interface.</li>
 <li>Created lab exercises to help students learn about the features and limitations of the model, and illustrate Earth System Modeling concepts.</li>
 </ul>
-<h3>Refereed Publications</h3>
+<h3>Publications</h3>
+<h4>Submitted</h4>
+<p>Xiang, B., Harris, L., Delworth, T. L., Wang, B., Chen, G., Chen, J-H.,
+<strong>Clark, S. K.</strong>, Cooke, W. F., Gao, K., Huff, J. J., Jia, L., Johnson, N.,
+Kapnick, S. B., Lu, F., Sun, Y., Tong, M., Yang, X., Zeng, F., Zhao, M., Zhou,
+L., and Zhou, X..  The GFDL SPEAR S2S Prediction System and Its Prediction of
+Different Types of MJO.  Submitted to Bulletin of the American
+Meteorological Society.</p>
+<h4>In press</h4>
+<p>McGibbon, J., Brenowitz, N. D., Cheeseman, M., <strong>Clark, S. K.</strong>, Dahm, J.,
+Davis, E., Elbert, O. D., George, R. C., Harris, L. M., Henn, B., Kwa, A.,
+Perkins, W. A., Watt-Meyer, O., Wicky, T., Bretherton, C. S., and Fuhrer, O.
+fv3gfs-wrapper: a Python wrapper of the FV3GFS atmospheric model.  Accepted
+for Geoscientific Model Development. <a href="https://gmd.copernicus.org/preprints/gmd-2021-22/">https://gmd.copernicus.org/preprints/gmd-2021-22/</a></p>
+<p>Watt-Meyer, O., Brenowitz, N. D., <strong>Clark, S. K.</strong>, Henn, B., Kwa, A.,
+McGibbon, J., Perkins, W. A., and Bretherton, C. S. Correcting weather and
+climate models by machine learning nudged historical simulations.  Accepted
+for Geophysical Research Letters. <a href="https://www.essoar.org/doi/abs/10.1002/essoar.10505959.1">https://www.essoar.org/doi/abs/10.1002/essoar.10505959.1</a></p>
+<h4>Refereed</h4>
 <p>Harris, L., Zhou, L., Lin, S.-J., Chen, J.-H., Chen, X., Gao, K., Morin, M., Rees, S., Sun, Y., Tong, M., Xiang, B., Bender, M., Benson, R., Cheng, K.-Y., <strong>Clark, S.</strong>, Elbert, O. D., Hazelton, A., Huff, J. J., Kaltenbaugh, A., … Stern, W. (2020). GFDL SHiELD: A Unified System for Weather-to-Seasonal Prediction. Journal of Advances in Modeling Earth Systems, 12(10), e2020MS002223. <a href="https://doi.org/10.1029/2020MS002223">https://doi.org/10.1029/2020MS002223</a></p>
 <p>Narinesingh, V., Booth, J. F., <strong>Clark, S. K.</strong>, Ming, Y.   (2020).  Atmospheric blocking in an aquaplanet and the impact of orography.  Weather and Climate Dynamics, 1(2), 293-311.  <a href="https://doi.org/10.5194/wcd-2020-2">https://doi.org/10.5194/wcd-2020-2</a></p>
 <p><strong>Clark, S. K.</strong>, Ming, Y. Adames, Á. F.  (2020).  Monsoon low pressure system like variability in an idealized moist model.  Journal of Climate, 33(6), 2051-2074.  <a href="https://doi.org/10.1175/JCLI-D-19-0289.1">https://doi.org/10.1175/JCLI-D-19-0289.1</a></p>
@@ -187,17 +217,18 @@ observations, and studied their future projections.</li>
 <li>Led an effort to add first-class support of non-standard calendar types frequently used in climate science.</li>
 <li>Responsible for taking part in carefully reviewing new contributions, fixing bugs, adding requested features, and answering user/developer questions.</li>
 </ul>
-<p><em>Core developer</em> of <a href="https://github.com/spencerahill/aospy"><code>aospy</code></a>, a Python library for climate model data analysis and management</p>
+<p><em>Core developer</em> of <a href="https://github.com/SciTools/nc-time-axis"><code>nc-time-axis</code></a>, A Python library providing the ability to plot cftime datetimes in matplotlib</p>
 <ul>
-<li>Migrated the internals of the project to use xarray.</li>
-<li>Added support for parallelizing computations, abstracted data-loading procedures, and enabled variables to be computed recursively.</li>
+<li>Enabled plotting <code>cftime.datetime</code> objects directly in
+matplotlib, instead of requiring a wrapped version of a
+<code>cftime.datetime</code> object.</li>
 </ul>
 <p><em>Contributor</em> to  <a href="https://github.com/Unidata/cftime"><code>cftime</code></a>, a Python library providing datetime instances for non-standard calendars</p>
 <ul>
 <li>Enabled exact numerical decoding and encoding of datetimes</li>
 <li>Suggested strategy that led to speeding up fundamental operations, e.g. datetime construction and timedelta arithmetic, by 200 to 400x.</li>
 </ul>
-<p><em>Contributor</em> to <a href="https://github.com/Unidata/cftime"><code>cftime</code></a>, <a href="https://github.com/dask/dask-jobqueue"><code>dask-jobqueue</code></a>, and <a href="https://github.com/SciTools/nc-time-axis"><code>nc-time-axis</code></a>.  Author of <a href="https://github.com/spencerkclark/faceted"><code>faceted</code></a> and <a href="https://github.com/spencerkclark/xdiff"><code>xdiff</code></a>.  See more details on my <a href="https://github.com/spencerkclark">GitHub profile</a>.</p>
+<p><em>Contributor</em> to <a href="https://github.com/dask/dask-jobqueue"><code>dask-jobqueue</code></a> and <a href="https://github.com/dask/gcsfs"><code>gcsfs</code></a>.  Author of <a href="https://github.com/spencerkclark/faceted"><code>faceted</code></a>, <a href="https://github.com/spencerkclark/xdiff"><code>xdiff</code></a>, and <a href="https://github.com/spencerkclark/xpartition"><code>xpartition</code></a>.  See more details on my <a href="https://github.com/spencerkclark">GitHub profile</a>.</p>
 <h3>Professional Experiences</h3>
 <p><em>Contributor</em>, <a href="http://pangeo.io">Pangeo-data</a>, November 2016 - Present</p>
 <p><em>Organizer</em>, Princeton AOS Workshop, 2016</p>
