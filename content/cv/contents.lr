@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2021-07-05 ([PDF](../static/CV.pdf)).
+Last updated 2021-09-12 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -33,8 +33,12 @@ Last updated 2021-07-05 ([PDF](../static/CV.pdf)).
 
 ### Research Experience
 
+#### Allen Institute for Artificial Intelligence, Climate Modeling Team, Princeton, NJ
+*Research Engineer*, September 2021 - Present
+- A continuation of our work at Vulcan Inc.
+
 #### Vulcan Inc., Climate Modeling Team, Princeton, NJ
-*Software Engineer for Climate Model Development*, August 2019 - Present
+*Software Engineer for Climate Model Development*, August 2019 - August 2021
 - Supported Vulcan Climate Modeling's efforts as a member of both VCM's ML
   team and GFDL's SHiELD model development team.
 - Contributed code to GFDL's SHiELD model to enable online coarse-graining of
@@ -80,6 +84,8 @@ observations, and studied their future projections.
 
 #### Submitted
 
+Bretherton, C. S., Henn, B., Kwa, A., Brenowitz, N. D., Watt-Meyer, O., McGibbon, J., Perkins, W. A., **Clark, S. K.**, Harris, L. M. Correcting coarse-grid weather and climate models by machine learning from global storm resolving simulations. Submitted to Journal of Advances in Modeling the Earth System. https://www.essoar.org/doi/abs/10.1002/essoar.10507879.1
+
 Xiang, B., Harris, L., Delworth, T. L., Wang, B., Chen, G., Chen, J-H.,
 **Clark, S. K.**, Cooke, W. F., Gao, K., Huff, J. J., Jia, L., Johnson, N.,
 Kapnick, S. B., Lu, F., Sun, Y., Tong, M., Yang, X., Zeng, F., Zhao, M., Zhou,
@@ -87,20 +93,16 @@ L., and Zhou, X..  The GFDL SPEAR S2S Prediction System and Its Prediction of
 Different Types of MJO.  Submitted to Bulletin of the American
 Meteorological Society.
 
-#### In press
+#### Refereed
 
 McGibbon, J., Brenowitz, N. D., Cheeseman, M., **Clark, S. K.**, Dahm, J.,
 Davis, E., Elbert, O. D., George, R. C., Harris, L. M., Henn, B., Kwa, A.,
-Perkins, W. A., Watt-Meyer, O., Wicky, T., Bretherton, C. S., and Fuhrer, O.
-fv3gfs-wrapper: a Python wrapper of the FV3GFS atmospheric model.  Accepted
-for Geoscientific Model Development. https://gmd.copernicus.org/preprints/gmd-2021-22/
+Perkins, W. A., Watt-Meyer, O., Wicky, T., Bretherton, C. S., and Fuhrer, O. (2021).
+fv3gfs-wrapper: a Python wrapper of the FV3GFS atmospheric model.  Geoscientific Model Development, 14, 4401–4409.  https://doi.org/10.5194/gmd-14-4401-2021
 
 Watt-Meyer, O., Brenowitz, N. D., **Clark, S. K.**, Henn, B., Kwa, A.,
-McGibbon, J., Perkins, W. A., and Bretherton, C. S. Correcting weather and
-climate models by machine learning nudged historical simulations.  Accepted
-for Geophysical Research Letters. https://www.essoar.org/doi/abs/10.1002/essoar.10505959.1
-
-#### Refereed
+McGibbon, J., Perkins, W. A., and Bretherton, C. S.  (2021). Correcting weather and
+climate models by machine learning nudged historical simulations. Geophysical Research Letters, 48(15), e2021GL092555.  https://doi.org/10.1029/2021GL092555
 
 Harris, L., Zhou, L., Lin, S.-J., Chen, J.-H., Chen, X., Gao, K., Morin, M., Rees, S., Sun, Y., Tong, M., Xiang, B., Bender, M., Benson, R., Cheng, K.-Y., **Clark, S.**, Elbert, O. D., Hazelton, A., Huff, J. J., Kaltenbaugh, A., … Stern, W. (2020). GFDL SHiELD: A Unified System for Weather-to-Seasonal Prediction. Journal of Advances in Modeling Earth Systems, 12(10), e2020MS002223. https://doi.org/10.1029/2020MS002223
 
