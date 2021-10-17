@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2021-09-12 ([PDF](../static/CV.pdf)).
+Last updated 2021-10-17 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -86,12 +86,14 @@ observations, and studied their future projections.
 
 Bretherton, C. S., Henn, B., Kwa, A., Brenowitz, N. D., Watt-Meyer, O., McGibbon, J., Perkins, W. A., **Clark, S. K.**, Harris, L. M. Correcting coarse-grid weather and climate models by machine learning from global storm resolving simulations. Submitted to Journal of Advances in Modeling the Earth System. https://www.essoar.org/doi/abs/10.1002/essoar.10507879.1
 
+#### In press
+
 Xiang, B., Harris, L., Delworth, T. L., Wang, B., Chen, G., Chen, J-H.,
 **Clark, S. K.**, Cooke, W. F., Gao, K., Huff, J. J., Jia, L., Johnson, N.,
 Kapnick, S. B., Lu, F., Sun, Y., Tong, M., Yang, X., Zeng, F., Zhao, M., Zhou,
 L., and Zhou, X..  The GFDL SPEAR S2S Prediction System and Its Prediction of
-Different Types of MJO.  Submitted to Bulletin of the American
-Meteorological Society.
+Different Types of MJO.  Accepted to Bulletin of the American
+Meteorological Society.  https://doi.org/10.1175/BAMS-D-21-0124.1
 
 #### Refereed
 
@@ -163,6 +165,9 @@ Assistant Mentor to NOAA Hollings Scholar Bridgette Befort (2017).
 Peer-reviewed manuscripts for  *Nature*,   *Nature Climate Change*,  *Journal of Geophysical Research — Atmospheres*, *Journal of Climate*, *Quarterly Journal of the Royal Meteorological Society*, and GFDL internal manuscript review.
 
 ### Presentations
+
+**Clark, S. K.**, Brenowitz, N., Henn, B. M., Kwa, A., McGibbon, J., Perkins, W. A., Watt-Meyer, O., Harris, L., Bretherton, C.S.  "Applying machine learning
+parameterization through coarse graining to improve the skill in simulating multiple climates in a full complexity GCM." NOAA Artificial Intelligence Workshop, September 2021.  Virtual Oral Presentation.
 
 **Clark, S. K.**, Brenowitz, N., Bretherton, C. S., Henn, B. M., Kwa, A., McGibbon, J., Perkins, W. A., Watt-Meyer, O., Chen, X., Harris, L., Zhou, L.  "Using nudging to investigate biases in a global 3 km resolution simulation with GFDL's X-SHiELD model." AGU Fall Meeting 2020, December 2020.  Virtual Poster Presentation.
 
