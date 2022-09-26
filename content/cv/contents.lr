@@ -4,7 +4,7 @@ title: Curriculum Vitae
 ---
 body:
 
-Last updated 2022-09-03 ([PDF](../static/CV.pdf)).
+Last updated 2022-09-26 ([PDF](../static/CV.pdf)).
 
 ### Education
 
@@ -79,15 +79,23 @@ observations, and studied their future projections.
 
 ### Publications
 
-#### In press
+#### Submitted
 
-<ol reversed start="14">
-  <li><b>Spencer K. Clark</b>, Noah D. Brenowitz, Brian Henn, Anna Kwa, Jeremy McGibbon, W. Andre Perkins, Oliver Watt-Meyer, Christopher S. Bretherton, and Lucas M. Harris. Correcting a coarse-grid climate model in multiple climates by machine learning from global 25-km resolution simulations. Journal of Advances in Modeling Earth Systems, e2022MS003219, 2022. ISSN 1942-2466. <a href="https://doi.org/10.1029/2022MS003219">doi: 10.1029/2022MS003219</a></li>
+<ol reversed start="16">
+  <li>Anna Kwa, <b>Spencer K. Clark</b>, Brian Henn, Noah D. Brenowitz, Jeremy McGibbon, Oliver Watt-Meyer, W. Andre Perkins, Lucas M. Harris, and Christopher S. Bretherton.  Machine-learned climate model corrections from a global storm-resolving model: Performance across the annual cycle. Submitted to Journal of Advances in Modeling Earth Systems. <a href="https://doi.org/10.1002/essoar.10512393.1">doi: 10.1002/essoar.10512393.1</a></li>
+<div style="line-height:50%;">
+    <br>
+</div>
+  <li>Lucas M. Harris, Linjiong Zhou, Alexander D. Kaltenbaugh, <b>Spencer K. Clark</b>, Kai-Yuan Cheng, and Christopher S. Bretherton. A Global Survey of Rotating Convective Updrafts in the GFDL X-SHiELD 2021 Global Storm Resolving Model. Submitted to Journal of Geophysical Research: Atmospheres <a href="https://doi.org/10.1002/essoar.10512351.1">doi: 10.1002/essoar.10512351.1</a></li>
 </ol>
 
 #### Refereed
 
 <ol reversed>
+  <li><b>Spencer K. Clark</b>, Noah D. Brenowitz, Brian Henn, Anna Kwa, Jeremy McGibbon, W. Andre Perkins, Oliver Watt-Meyer, Christopher S. Bretherton, and Lucas M. Harris. Correcting a coarse-grid climate model in multiple climates by machine learning from global 25-km resolution simulations. Journal of Advances in Modeling Earth Systems, 14(9):e2022MS003219, 2022. ISSN 1942-2466. <a href="https://doi.org/10.1029/2022MS003219">doi: 10.1029/2022MS003219</a></li>
+<div style="line-height:50%;">
+    <br>
+</div>
   <li>Kai-Yuan Cheng, Lucas M. Harris, Christopher S. Bretherton, Timothy Merlis, Maximilien Bolot, Linjiong Zhou, Alexander Kaltenbaugh, <b>Spencer K. Clark</b>, and Stephan T. Fueglistaler. Impact of warmer sea surface temperature on the global pattern of intense convection: Insights from a global storm resolving model. Geophysical Research Letters, 49(16): e2022GL099796, 2022. ISSN 1944-8007. <a href="https://doi.org/10.1029/2022GL099796">doi: 10.1029/2022GL099796</a></li>
 <div style="line-height:50%;">
     <br>
